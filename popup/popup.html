@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="popup.css">
+	<title>도다람링크</title>
+</head>
+<body>
+	<div class="tableArea">
+		<table class="linkTable">
+			<colgroup>
+				<col width="25%">
+				<col width="25%">
+				<col width="25%">
+				<col width="25%">
+			</colgroup>
+			<tr>
+				<td colspan="4">
+					<div class="linkTitle">
+						<img src="../images/dodaram.png">
+						<span id="nick">도다람</span>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://www.twitch.tv/ddraming" target="_blank">
+						<img src="../images/twitch_icon.png">
+						<span>트위치</span>
+					</a>
+				</td>
+				<td>
+					<a href="https://chzzk.naver.com/live/5a091442f87b638efb3e1fbb53643e95" target="_blank">
+						<img src="../images/chzzk_icon.png">
+						<span>치지직</span>
+					</a>
+				</td>
+				<td>
+					<a href="https://twip.kr/donate/ddraming" target="_blank">
+						<img src="../images/twip_icon.png">
+						<span>트윕</span>
+					</a>
+				</td>
+				<td>
+					<a href="https://toon.at/donate/636948043832422589" target="_blank">
+						<img src="../images/toon_icon.png">
+						<span>투네</span>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://www.youtube.com/@dodaram" target="_blank">
+						<img src="../images/youtube_icon.png" style="padding-top:8px;">
+						<span>유튜브</span>
+					</a>
+				</td>
+				<td>
+					<a href="https://cafe.naver.com/dodaram" target="_blank">
+						<img src="../images/navercafe_icon.png">
+						<span>카페</span>
+					</a>
+				</td>
+				<td>
+					<a id="chat_viewer" href="#">
+						<img src="../images/chat_viewer_icon.png">
+						<span>챗뷰어</span>
+					</a>
+				</td>
+				<td>
+					<a id="chatting" href="#">
+						<img src="../images/chat_icon.png">
+						<span>채팅</span>
+					</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div id="seeMoreArea">
+		<div id="seeMoreLine"></div>
+	</div>
+	<div id="optionArea">
+		<div class="radio">
+			<span style="margin-right:5px;">- 채팅:</span>
+			<input id="chat_twitch" name="chat_option" type="radio" value="twitch">
+			<label for="chat_twitch" class="radio-label" style="margin-right:5px;">트위치</label>
+			<input id="chat_chzzk" name="chat_option" type="radio" value="chzzk">
+			<label for="chat_chzzk" class="radio-label">치지직</label>
+		</div>
+	</div>
+	<script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+::-webkit-scrollbar {
+	width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 2px;
+	background-clip: padding-box;
+	background-color: #35353e;
+	border: 1px solid #393942;
+}
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-button {
+	width: 0;
+	height: 0;
+}
+
+#log {
+	padding: 10px 10px 0 10px !important;
+}
+
+#log > div:not(.donation) {
+	padding-bottom: 10px !important;
+	line-height: 20px !important;
+}
+
+.meta, .message {
+	display: inline !important;
+}
+
+.colon, .name {
+	height: auto !important;
+}
+
+.badge, .colon, .message, .name {
+	vertical-align: middle !important;
+}
+
+.Layout-sc-1xcs6mc-0.fhQiFC.chat-room__content > div:first-child {
+	display: none !important;
+}
+
+.Layout-sc-1xcs6mc-0.iynFwo.stream-chat > div.Layout-sc-1xcs6mc-0.fiHaCw.stream-chat-header {
+	display: none !important;
+}
+
+.Layout-sc-1xcs6mc-0.kILIqT.chat-input {
+	margin-top: 10px !important;
+}
+
+.live_chatting_header_container__k0hTT {
+	display: none !important;
+}
+
+.live_chatting_ranking_container__RVHvS {
+	display: none !important;
+}
